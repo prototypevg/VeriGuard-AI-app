@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Mail, Lock, ArrowLeft, ShoppingBag, Store, CreditCard, HelpCircle } from 'lucide-react';
 import type { PerfilType } from '../App';
-import logoVeriGuard from 'figma:asset/387a34705e6205bda5fa823ffc7932e787e39b67.png';
+import logoVeriGuard from '../assets/logo.png';
 import HelpModal from './modals/HelpModal';
 
 interface LoginProps {
