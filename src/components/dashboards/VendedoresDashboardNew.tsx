@@ -17,7 +17,7 @@ import ModoAuditoriaModal from '../modals/ModoAuditoriaModal';
 import TreinamentoIAModal from '../modals/TreinamentoIAModal';
 import CentralSegurancaModal from '../modals/CentralSegurancaModal';
 import SLAPerformanceModal from '../modals/SLAPerformanceModal';
-import logoVeriGuard from 'figma:asset/387a34705e6205bda5fa823ffc7932e787e39b67.png';
+import logoVeriGuard from '../../assets/logo.png';
 
 interface VendedoresDashboardProps {
   userEmail: string;
