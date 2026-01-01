@@ -1,9 +1,8 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
-import { Mail, Lock, ArrowLeft, ShoppingBag, Store, CreditCard, HelpCircle } from 'lucide-react';
+import { Mail, Lock, ArrowLeft, ShoppingBag, Store, CreditCard } from 'lucide-react';
 import type { PerfilType } from '../App';
 import logoVeriGuard from '../assets/logo.png';
-import HelpModal from './modals/HelpModal';
 
 interface LoginProps {
   onLogin: (email: string, perfil: PerfilType) => void;
