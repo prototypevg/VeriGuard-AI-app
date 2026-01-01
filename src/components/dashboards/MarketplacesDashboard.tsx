@@ -16,7 +16,7 @@ import ModoAuditoriaModal from '../modals/ModoAuditoriaModal';
 import SLAPerformanceModal from '../modals/SLAPerformanceModal';
 import HelpModal from '../modals/HelpModal';
 import ProfileDropdown from '../ProfileDropdown';
-import logoVeriGuard from 'figma:asset/387a34705e6205bda5fa823ffc7932e787e39b67.png';
+import logoVeriGuard from '../../assets/logo.png';
 
 interface MarketplacesDashboardProps {
   userEmail: string;
