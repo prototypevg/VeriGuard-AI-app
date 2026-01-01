@@ -12,7 +12,6 @@ export default function Login({ onLogin }: LoginProps) {
   const [selectedPerfil, setSelectedPerfil] = useState<PerfilType>(null);
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-  const [showHelp, setShowHelp] = useState(false);
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
