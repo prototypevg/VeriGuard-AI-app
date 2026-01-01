@@ -53,8 +53,9 @@
     },
     build: {
       target: 'esnext',
-      outDir: 'build',
+      outDir: 'dist',
     },
+    base: '/VeriGuard-AI-app/',
     server: {
       port: 3000,
       host: '0.0.0.0',
