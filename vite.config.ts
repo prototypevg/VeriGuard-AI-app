@@ -56,6 +56,7 @@
     },
     server: {
       port: 3000,
-      open: true,
+      host: '0.0.0.0',
+      allowedHosts: ['localhost', '81611cd3-bf35-499b-ac3b-825d988dd9d3.preview.emergentagent.com'],
     },
   });
