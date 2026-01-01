@@ -182,17 +182,6 @@ export default function Login({ onLogin }: LoginProps) {
           )}
         </AnimatePresence>
       </motion.div>
-
-      {/* Botão de Ajuda Flutuante */}
-      <button
-        onClick={() => setShowHelp(true)}
-        className="absolute bottom-6 right-6 flex items-center gap-2 text-white/60 hover:text-white transition-colors z-20"
-      >
-        <HelpCircle className="w-5 h-5" />
-        <span className="text-sm font-medium">Central de Ajuda</span>
-      </button>
-
-      {showHelp && <HelpModal onClose={() => setShowHelp(false)} />}
     </div>
   );
 }
