@@ -199,7 +199,7 @@ export default function BancosDashboard({ userEmail, onLogout, darkMode, onToggl
 
         <main className="p-4 lg:p-8">
           {/* Quick Actions */}
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
+          <div className="grid grid-cols-2 lg:grid-cols-3 gap-4 mb-8">
             <button
               onClick={() => setActiveModal('analisar')}
               className="bg-gradient-to-r from-blue-600 to-blue-800 hover:from-blue-700 hover:to-blue-900 text-white p-4 lg:p-6 rounded-xl transition-all flex flex-col items-center gap-2 shadow-lg"
@@ -224,17 +224,6 @@ export default function BancosDashboard({ userEmail, onLogout, darkMode, onToggl
             >
               <FileText className="w-6 h-6" />
               <span className="text-sm text-center">Relatórios BACEN</span>
-            </button>
-            <button
-              onClick={() => setActiveModal('integracoes')}
-              className={`p-4 lg:p-6 rounded-xl transition-all flex flex-col items-center gap-2 border ${
-                darkMode 
-                  ? 'bg-green-900/20 border-green-700 text-green-400 hover:bg-green-900/30' 
-                  : 'bg-green-50 border-green-200 text-green-700 hover:bg-green-100'
-              }`}
-            >
-              <Settings className="w-6 h-6" />
-              <span className="text-sm text-center">Integrações API</span>
             </button>
           </div>
 
