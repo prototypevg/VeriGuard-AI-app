@@ -62,13 +62,15 @@ export default function BancosDashboard({ userEmail, onLogout, darkMode, onToggl
   const [activeModal, setActiveModal] = useState<string | null>(null);
 
   const menuItems = [
-    { id: 'analisar', label: 'Analisar Transação', icon: Search, action: () => setActiveModal('analisar') },
-    { id: 'historico', label: 'Histórico de Alertas', icon: List, action: () => setActiveModal('historico') },
     { id: 'simulacao', label: 'Simulação de Ataques', icon: Swords, action: () => setActiveModal('simulacao') },
     { id: 'auditoria', label: 'Modo Auditoria', icon: Eye, action: () => setActiveModal('auditoria') },
     { id: 'sla', label: 'SLA & Performance', icon: TrendingUp, action: () => setActiveModal('sla') },
-    { id: 'relatorios', label: 'Relatórios Regulatórios', icon: FileText, action: () => setActiveModal('relatorios') },
-    { id: 'integracoes', label: 'Integrações API', icon: Settings, action: () => setActiveModal('integracoes') },
+    { id: 'treinamento', label: 'Treinamento IA', icon: Brain, action: () => setActiveModal('treinamento') },
+    { id: 'aml', label: 'Central AML', icon: Landmark, action: () => setActiveModal('gamificacao') },
+    { id: 'pix', label: 'Monitor PIX', icon: Smartphone, action: () => setActiveModal('gamificacao') },
+    { id: 'cartoes', label: 'Fraude de Cartões', icon: CreditCard, action: () => setActiveModal('gamificacao') },
+    { id: 'contas', label: 'Contas Suspeitas', icon: UserX, action: () => setActiveModal('gamificacao') },
+    { id: 'kyc', label: 'KYC Bancário', icon: Fingerprint, action: () => setActiveModal('gamificacao') },
     { id: 'ajuda', label: 'Central de Ajuda', icon: HelpCircle, action: () => setActiveModal('help') }
   ];
 
