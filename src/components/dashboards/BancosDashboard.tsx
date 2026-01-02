@@ -472,13 +472,13 @@ export default function BancosDashboard({ userEmail, onLogout, darkMode, onToggl
       {activeModal === 'analisar' && <AnalisarTransacaoModal onClose={() => setActiveModal(null)} />}
       {activeModal === 'historico' && <HistoricoAlertasModal onClose={() => setActiveModal(null)} />}
       {activeModal === 'relatorios' && <RelatoriosModal onClose={() => setActiveModal(null)} perfil="bancos" />}
-      {activeModal === 'integracoes' && <IntegracoesModal onClose={() => setActiveModal(null)} perfil="bancos" />}
       {activeModal === 'help' && <HelpModal onClose={() => setActiveModal(null)} />}
       {activeModal === 'configuracoes' && <ConfiguracoesModal onClose={() => setActiveModal(null)} />}
       {activeModal === 'gamificacao' && <GamificacaoModal onClose={() => setActiveModal(null)} />}
-      {activeModal === 'simulacao' && <SimulacaoAtaqueModal onClose={() => setActiveModal(null)} />}
+      {activeModal === 'simulacao' && <SimulacaoAtaqueModal onClose={() => setActiveModal(null)} darkMode={darkMode} perfil="bancos" />}
       {activeModal === 'auditoria' && <ModoAuditoriaModal onClose={() => setActiveModal(null)} />}
       {activeModal === 'sla' && <SLAPerformanceModal onClose={() => setActiveModal(null)} />}
+      {activeModal === 'treinamento' && <TreinamentoIAModal onClose={() => setActiveModal(null)} />}
     </div>
   );
 }
