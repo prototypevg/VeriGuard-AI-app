@@ -1,11 +1,10 @@
 import { useState } from 'react';
 import { motion } from 'motion/react';
-import { CreditCard, AlertTriangle, CheckCircle, FileText, Settings, HelpCircle, Menu, X, Search, List, Swords, Eye, TrendingUp, ShieldCheck, Banknote, AlertOctagon, Landmark, Smartphone, Globe, Users, Lock, Fingerprint, Scale } from 'lucide-react';
+import { CreditCard, AlertTriangle, CheckCircle, FileText, HelpCircle, Menu, X, Search, List, Swords, Eye, TrendingUp, ShieldCheck, Banknote, AlertOctagon, Landmark, Smartphone, Globe, Users, Lock, Fingerprint, Scale, Activity, Brain, ShieldAlert, UserX, Wallet, Timer, BarChart3 } from 'lucide-react';
 import { BarChart, Bar, LineChart, Line, PieChart, Pie, Cell, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
 import AnalisarTransacaoModal from '../modals/AnalisarTransacaoModal';
 import HistoricoAlertasModal from '../modals/HistoricoAlertasModal';
 import RelatoriosModal from '../modals/RelatoriosModal';
-import IntegracoesModal from '../modals/IntegracoesModal';
 import ConfiguracoesModal from '../modals/ConfiguracoesModal';
 import GamificacaoModal from '../modals/GamificacaoModal';
 import SimulacaoAtaqueModal from '../modals/SimulacaoAtaqueModal';
