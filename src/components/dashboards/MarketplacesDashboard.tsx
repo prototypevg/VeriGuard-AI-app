@@ -63,12 +63,10 @@ export default function MarketplacesDashboard({ userEmail, onLogout, darkMode, o
     { id: 'validar', label: 'Validar Produto (IA)', icon: CheckCircle, action: () => setActiveModal('validar') },
     { id: 'bloqueados', label: 'Itens Bloqueados', icon: List, action: () => setActiveModal('bloqueados') },
     { id: 'simulacao', label: 'Simulação de Ataques', icon: Swords, action: () => setActiveModal('simulacao') },
-    { id: 'treinamento', label: 'Treinamento IA', icon: GraduationCap, action: () => setActiveModal('treinamento') },
     { id: 'sla', label: 'SLA & Performance', icon: TrendingUp, action: () => setActiveModal('sla') },
     { id: 'auditoria', label: 'Modo Auditoria', icon: Eye, action: () => setActiveModal('auditoria') },
     { id: 'historico', label: 'Histórico', icon: History, action: () => setActiveModal('historico') },
     { id: 'relatorios', label: 'Relatórios', icon: FileText, action: () => setActiveModal('relatorios') },
-    { id: 'integracoes', label: 'Integrações API', icon: Settings, action: () => setActiveModal('integracoes') },
     { id: 'ajuda', label: 'Central de Ajuda', icon: HelpCircle, action: () => setActiveModal('help') }
   ];
 
