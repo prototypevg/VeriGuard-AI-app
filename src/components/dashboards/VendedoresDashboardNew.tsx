@@ -63,7 +63,6 @@ export default function VendedoresDashboard({ userEmail, onLogout, darkMode, onT
     { id: 'defesa', label: 'Defesa Técnica', icon: FileText, action: () => setActiveModal('defesa') },
     { id: 'relatorios', label: 'Relatórios', icon: FileText, action: () => setActiveModal('relatorios') },
     { id: 'integracoes', label: 'Integrações', icon: Link, action: () => setActiveModal('integracoes') },
-    { id: 'simulacao', label: 'Teste de Segurança', icon: Play, action: () => setActiveModal('simulacao') },
     { id: 'auditoria', label: 'Modo Auditoria', icon: Eye, action: () => setActiveModal('auditoria') },
     { id: 'treinamento', label: 'Treinamento IA', icon: Brain, action: () => setActiveModal('treinamento') },
     { id: 'sla', label: 'SLA & Performance', icon: Server, action: () => setActiveModal('sla') },
@@ -192,20 +191,13 @@ export default function VendedoresDashboard({ userEmail, onLogout, darkMode, onT
 
         <main className="p-4 lg:p-8">
           {/* Quick Actions */}
-          <div className="grid grid-cols-2 lg:grid-cols-5 gap-4 mb-8">
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
             <button
               onClick={() => setActiveModal('cadastrar')}
               className="bg-gradient-to-r from-[#39843e] to-[#416b44] hover:from-[#416b44] hover:to-[#39843e] text-white p-4 lg:p-6 rounded-xl transition-all flex flex-col items-center gap-2 shadow-lg"
             >
               <Plus className="w-6 h-6" />
               <span className="text-sm text-center">Cadastrar Produto</span>
-            </button>
-            <button
-              onClick={() => setActiveModal('validar')}
-              className="bg-gradient-to-r from-blue-600 to-blue-800 hover:from-blue-700 hover:to-blue-900 text-white p-4 lg:p-6 rounded-xl transition-all flex flex-col items-center gap-2 shadow-lg"
-            >
-              <CheckCircle className="w-6 h-6" />
-              <span className="text-sm text-center">Validar Produto (IA)</span>
             </button>
             <button
               onClick={() => setActiveModal('simulacao')}
