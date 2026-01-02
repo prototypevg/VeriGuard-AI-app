@@ -443,7 +443,7 @@ export default function MarketplacesDashboard({ userEmail, onLogout, darkMode, o
       {activeModal === 'bloqueados' && <ItensBloqueadosModal onClose={() => setActiveModal(null)} />}
       {activeModal === 'historico' && <HistoricoModal onClose={() => setActiveModal(null)} />}
       {activeModal === 'gamificacao' && <GamificacaoModal onClose={() => setActiveModal(null)} />}
-      {activeModal === 'simulacao' && <SimulacaoAtaqueModal onClose={() => setActiveModal(null)} />}
+      {activeModal === 'simulacao' && <SimulacaoAtaqueModal onClose={() => setActiveModal(null)} darkMode={darkMode} perfil="marketplaces" />}
       {activeModal === 'treinamento' && <TreinamentoIAModal onClose={() => setActiveModal(null)} />}
       {activeModal === 'auditoria' && <ModoAuditoriaModal onClose={() => setActiveModal(null)} />}
       {activeModal === 'sla' && <SLAPerformanceModal onClose={() => setActiveModal(null)} />}
