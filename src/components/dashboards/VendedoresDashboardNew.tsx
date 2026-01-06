@@ -17,6 +17,9 @@ import ModoAuditoriaModal from '../modals/ModoAuditoriaModal';
 import TreinamentoIAModal from '../modals/TreinamentoIAModal';
 import CentralSegurancaModal from '../modals/CentralSegurancaModal';
 import SLAPerformanceModal from '../modals/SLAPerformanceModal';
+import ProtecaoMarcaModal from '../modals/ProtecaoMarcaModal';
+import AntiCloneModal from '../modals/AntiCloneModal';
+import MonitorConcorrenteModal from '../modals/MonitorConcorrenteModal';
 import logoVeriGuard from '../../assets/logo.png';
 
 interface VendedoresDashboardProps {
