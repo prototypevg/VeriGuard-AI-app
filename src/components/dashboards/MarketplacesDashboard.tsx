@@ -457,9 +457,13 @@ export default function MarketplacesDashboard({ userEmail, onLogout, darkMode, o
       {activeModal === 'auditoria' && <ModoAuditoriaModal onClose={() => setActiveModal(null)} />}
       {activeModal === 'sla' && <SLAPerformanceModal onClose={() => setActiveModal(null)} />}
       {activeModal === 'relatorios' && <RelatoriosModal onClose={() => setActiveModal(null)} perfil="marketplaces" />}
-      {activeModal === 'integracoes' && <IntegracoesModal onClose={() => setActiveModal(null)} perfil="marketplaces" />}
       {activeModal === 'help' && <HelpModal onClose={() => setActiveModal(null)} />}
       {activeModal === 'configuracoes' && <ConfiguracoesModal onClose={() => setActiveModal(null)} />}
+      {activeModal === 'blacklist' && <BlacklistModal onClose={() => setActiveModal(null)} darkMode={darkMode} />}
+      {activeModal === 'reviews' && <ReviewsFalsosModal onClose={() => setActiveModal(null)} darkMode={darkMode} />}
+      {activeModal === 'multicontas' && <MultiContasModal onClose={() => setActiveModal(null)} darkMode={darkMode} />}
+      {activeModal === 'golpista' && <VendedorGolpistaModal onClose={() => setActiveModal(null)} darkMode={darkMode} />}
+      {activeModal === 'produtofalso' && <ProdutoFalsoModal onClose={() => setActiveModal(null)} darkMode={darkMode} />}
     </div>
   );
 }
