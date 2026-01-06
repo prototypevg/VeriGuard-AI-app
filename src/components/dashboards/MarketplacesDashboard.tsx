@@ -63,9 +63,6 @@ export default function MarketplacesDashboard({ userEmail, onLogout, darkMode, o
   const [activeModal, setActiveModal] = useState<string | null>(null);
 
   const menuItems = [
-    { id: 'auditar', label: 'Auditar Seller (KYC)', icon: UserCheck, action: () => setActiveModal('auditar_seller') },
-    { id: 'validar', label: 'Validar Produto (IA)', icon: CheckCircle, action: () => setActiveModal('validar') },
-    { id: 'bloqueados', label: 'Itens Bloqueados', icon: List, action: () => setActiveModal('bloqueados') },
     { id: 'blacklist', label: 'Gestão Blacklist', icon: Ban, action: () => setActiveModal('blacklist') },
     { id: 'reviews', label: 'Reviews Falsos', icon: Star, action: () => setActiveModal('reviews') },
     { id: 'multicontas', label: 'Detecção Multi-Contas', icon: Network, action: () => setActiveModal('multicontas') },
