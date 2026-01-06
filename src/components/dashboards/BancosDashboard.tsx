@@ -6,12 +6,16 @@ import AnalisarTransacaoModal from '../modals/AnalisarTransacaoModal';
 import HistoricoAlertasModal from '../modals/HistoricoAlertasModal';
 import RelatoriosModal from '../modals/RelatoriosModal';
 import ConfiguracoesModal from '../modals/ConfiguracoesModal';
-import GamificacaoModal from '../modals/GamificacaoModal';
 import SimulacaoAtaqueModal from '../modals/SimulacaoAtaqueModal';
 import ModoAuditoriaModal from '../modals/ModoAuditoriaModal';
 import TreinamentoIAModal from '../modals/TreinamentoIAModal';
 import SLAPerformanceModal from '../modals/SLAPerformanceModal';
 import HelpModal from '../modals/HelpModal';
+import CentralAMLModal from '../modals/CentralAMLModal';
+import MonitorPIXModal from '../modals/MonitorPIXModal';
+import FraudeCartoesModal from '../modals/FraudeCartoesModal';
+import ContasSuspeitasModal from '../modals/ContasSuspeitasModal';
+import KYCBancarioModal from '../modals/KYCBancarioModal';
 import ProfileDropdown from '../ProfileDropdown';
 import logoVeriGuard from '../../assets/logo.png';
 
