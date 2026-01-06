@@ -1,13 +1,12 @@
 import { useState } from 'react';
 import { motion } from 'motion/react';
-import { Building2, Store, CheckCircle, XCircle, FileText, Settings, HelpCircle, Menu, X, List, Swords, GraduationCap, Eye, TrendingUp, History, Award, UserCheck, ShieldAlert, Users, Ban, AlertOctagon, Fingerprint } from 'lucide-react';
+import { Building2, Store, CheckCircle, XCircle, FileText, Settings, HelpCircle, Menu, X, List, Swords, GraduationCap, Eye, TrendingUp, History, Award, UserCheck, ShieldAlert, Users, Ban, AlertOctagon, Fingerprint, Star, Network, Package } from 'lucide-react';
 import { BarChart, Bar, PieChart, Pie, Cell, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
 import AuditarSellerModal from '../modals/AuditarSellerModal';
 import ValidarProdutoModal from '../modals/ValidarProdutoModal';
 import ItensBloqueadosModal from '../modals/ItensBloqueadosModal';
 import HistoricoModal from '../modals/HistoricoModal';
 import RelatoriosModal from '../modals/RelatoriosModal';
-import IntegracoesModal from '../modals/IntegracoesModal';
 import ConfiguracoesModal from '../modals/ConfiguracoesModal';
 import GamificacaoModal from '../modals/GamificacaoModal';
 import SimulacaoAtaqueModal from '../modals/SimulacaoAtaqueModal';
@@ -15,6 +14,11 @@ import TreinamentoIAModal from '../modals/TreinamentoIAModal';
 import ModoAuditoriaModal from '../modals/ModoAuditoriaModal';
 import SLAPerformanceModal from '../modals/SLAPerformanceModal';
 import HelpModal from '../modals/HelpModal';
+import BlacklistModal from '../modals/BlacklistModal';
+import ReviewsFalsosModal from '../modals/ReviewsFalsosModal';
+import MultiContasModal from '../modals/MultiContasModal';
+import VendedorGolpistaModal from '../modals/VendedorGolpistaModal';
+import ProdutoFalsoModal from '../modals/ProdutoFalsoModal';
 import ProfileDropdown from '../ProfileDropdown';
 import logoVeriGuard from '../../assets/logo.png';
 
