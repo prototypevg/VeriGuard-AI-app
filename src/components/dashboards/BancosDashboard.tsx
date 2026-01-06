@@ -478,11 +478,15 @@ export default function BancosDashboard({ userEmail, onLogout, darkMode, onToggl
       {activeModal === 'relatorios' && <RelatoriosModal onClose={() => setActiveModal(null)} perfil="bancos" />}
       {activeModal === 'help' && <HelpModal onClose={() => setActiveModal(null)} />}
       {activeModal === 'configuracoes' && <ConfiguracoesModal onClose={() => setActiveModal(null)} />}
-      {activeModal === 'gamificacao' && <GamificacaoModal onClose={() => setActiveModal(null)} />}
       {activeModal === 'simulacao' && <SimulacaoAtaqueModal onClose={() => setActiveModal(null)} darkMode={darkMode} perfil="bancos" />}
       {activeModal === 'auditoria' && <ModoAuditoriaModal onClose={() => setActiveModal(null)} />}
       {activeModal === 'sla' && <SLAPerformanceModal onClose={() => setActiveModal(null)} />}
       {activeModal === 'treinamento' && <TreinamentoIAModal onClose={() => setActiveModal(null)} />}
+      {activeModal === 'aml' && <CentralAMLModal onClose={() => setActiveModal(null)} darkMode={darkMode} />}
+      {activeModal === 'pix' && <MonitorPIXModal onClose={() => setActiveModal(null)} darkMode={darkMode} />}
+      {activeModal === 'cartoes' && <FraudeCartoesModal onClose={() => setActiveModal(null)} darkMode={darkMode} />}
+      {activeModal === 'contas' && <ContasSuspeitasModal onClose={() => setActiveModal(null)} darkMode={darkMode} />}
+      {activeModal === 'kyc' && <KYCBancarioModal onClose={() => setActiveModal(null)} darkMode={darkMode} />}
     </div>
   );
 }
