@@ -69,6 +69,8 @@ export default function VendedoresDashboard({ userEmail, onLogout, darkMode, onT
     { id: 'protecao', label: 'Proteção de Marca', icon: Shield, action: () => setActiveModal('protecao') },
     { id: 'anticlone', label: 'Sistema Anti-Clone', icon: Copy, action: () => setActiveModal('anticlone') },
     { id: 'concorrente', label: 'Monitor Concorrentes', icon: Eye, action: () => setActiveModal('concorrente') },
+    { id: 'clonagem', label: 'Clonagem Multimodal IA', icon: Sparkles, action: () => setActiveModal('clonagem') },
+    { id: 'deepfake', label: 'Deepfake Seller', icon: Bot, action: () => setActiveModal('deepfake') },
     { id: 'relatorios', label: 'Relatórios', icon: FileText, action: () => setActiveModal('relatorios') },
     { id: 'integracoes', label: 'Integrações', icon: Link, action: () => setActiveModal('integracoes') },
     { id: 'auditoria', label: 'Modo Auditoria', icon: Eye, action: () => setActiveModal('auditoria') },
