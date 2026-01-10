@@ -476,6 +476,8 @@ export default function VendedoresDashboard({ userEmail, onLogout, darkMode, onT
       {activeModal === 'protecao' && <ProtecaoMarcaModal onClose={() => setActiveModal(null)} darkMode={darkMode} />}
       {activeModal === 'anticlone' && <AntiCloneModal onClose={() => setActiveModal(null)} darkMode={darkMode} />}
       {activeModal === 'concorrente' && <MonitorConcorrenteModal onClose={() => setActiveModal(null)} darkMode={darkMode} />}
+      {activeModal === 'clonagem' && <ClonagemMultimodalModal onClose={() => setActiveModal(null)} darkMode={darkMode} />}
+      {activeModal === 'deepfake' && <DeepfakeSellerModal onClose={() => setActiveModal(null)} darkMode={darkMode} />}
     </div>
   );
 }
