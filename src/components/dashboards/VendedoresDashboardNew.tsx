@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { motion } from 'motion/react';
-import { Shield, ShoppingBag, CheckCircle, AlertTriangle, Plus, History, FileText, HelpCircle, Link, Award, Play, Eye, Brain, Server, Menu, X, CreditCard, Copy, UserX, Ban } from 'lucide-react';
+import { Shield, ShoppingBag, CheckCircle, AlertTriangle, Plus, History, FileText, HelpCircle, Link, Award, Play, Eye, Brain, Server, Menu, X, CreditCard, Copy, UserX, Ban, Sparkles, Bot } from 'lucide-react';
 import { BarChart, Bar, LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
 import ProfileDropdown from '../ProfileDropdown';
 import ValidarProdutoModal from '../modals/ValidarProdutoModal';
@@ -20,6 +20,8 @@ import SLAPerformanceModal from '../modals/SLAPerformanceModal';
 import ProtecaoMarcaModal from '../modals/ProtecaoMarcaModal';
 import AntiCloneModal from '../modals/AntiCloneModal';
 import MonitorConcorrenteModal from '../modals/MonitorConcorrenteModal';
+import ClonagemMultimodalModal from '../modals/ClonagemMultimodalModal';
+import DeepfakeSellerModal from '../modals/DeepfakeSellerModal';
 import logoVeriGuard from '../../assets/logo.png';
 
 interface VendedoresDashboardProps {
